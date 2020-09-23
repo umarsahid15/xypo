@@ -35,12 +35,12 @@ header {
   color: #777777;
 }
 
-.header-text button {
+button {
   margin-top: 20px;
   margin-bottom: 60px;
 }
 
-.header-text .common-btn {
+.common-btn {
   padding: 18px 40px;
   background: transparent;
   outline: none;
@@ -162,5 +162,63 @@ nav ul li a {
   font-size: 20px;
   font-style: italic;
   color: #777777;
+}
+
+#features {
+  padding: 50px 0px;
+}
+
+#features .feature-row {
+  width: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#features .feature-row .feature-col {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  text-align: center;
+}
+
+#features .feature-row .feature-col img {
+  width: 100px;
+}
+
+#features .feature-row .feature-col h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#features .feature-row .feature-col p {
+  color: #777777;
+}
+
+#features .feature-btn {
+  margin: 80px auto 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#features .feature-btn .line {
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
 }
 /*# sourceMappingURL=style.css.map */
