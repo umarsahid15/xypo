@@ -5,8 +5,12 @@
 
 header {
   height: 100vh;
-  background-image: url("../img/background.png");
+  background-image: url("./src/img/background.png");
   background-position: center;
   background-size: cover;
+}
+
+h1 {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
