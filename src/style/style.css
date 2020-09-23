@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 header {
@@ -19,10 +20,70 @@ nav {
 }
 
 .logo img {
+  margin-top: 30px;
   width: 100px;
 }
 
-h1 {
-  color: red;
+.header-text {
+  max-width: 350px;
+  margin-top: 140px;
+}
+
+.header-text h1 {
+  font-size: 34px;
+}
+
+.header-text p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #777777;
+}
+
+.header-text .square {
+  height: 12px;
+  width: 12px;
+  margin: 15px 0px;
+  background-color: #f67c92;
+  display: inline-block;
+}
+
+.header-text button {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.header-text .common-btn {
+  padding: 18px 40px;
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-text .line {
+  line-height: 8px;
+}
+
+.header-text .line .line-1,
+.header-text .line .line-2,
+.header-text .line .line-3 {
+  background: #f67c92;
+  display: inline-block;
+}
+
+.header-text .line .line-1 {
+  width: 15px;
+  height: 15px;
+}
+
+.header-text .line .line-2 {
+  width: 80px;
+  height: 1px;
+}
+
+.header-text .line .line-3 {
+  width: 60px;
+  height: 1px;
 }
 /*# sourceMappingURL=style.css.map */
