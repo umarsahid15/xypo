@@ -12,6 +12,9 @@ header
     background-position: center
     background-size: cover
 
+p
+    color: $paragraph-color
+
 
 .container
     margin: 0px 100px
@@ -31,7 +34,6 @@ header
     p
         font-size: 15px
         line-height: 18px
-        color: $paragraph-color
 
 button
     margin-top: 20px
@@ -125,7 +127,6 @@ nav
             display: inline-block
 
         p
-            color: $paragraph-color
             margin-bottom: 50px
 
         h2
@@ -162,9 +163,6 @@ nav
                 margin-bottom: 15px
                 font-size: 20px
                 font-weight: 400
-            
-            p
-                color: $paragraph-color
     
     .feature-btn
         margin: 80px auto 0px
@@ -176,4 +174,29 @@ nav
             text-align: right
             display: inline-block
             margin-right: 25px
+
+// Courses
+
+#courses
+    padding: 100px 0px
+
+    .course-row
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+
+        .course-left-col
+            flex-basis: 50%
+
+            .course-text
+                width: 350px
+
+                button
+                    margin: 30px 0
+
+        .course-right-col
+            flex-basis: 50%
+
+            img
+                width: 100%
     
