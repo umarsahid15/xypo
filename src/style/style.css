@@ -11,10 +11,6 @@ header {
   background-size: cover;
 }
 
-nav {
-  height: 10vh;
-}
-
 .container {
   margin: 0px 100px;
 }
@@ -39,14 +35,6 @@ nav {
   color: #777777;
 }
 
-.header-text .square {
-  height: 12px;
-  width: 12px;
-  margin: 15px 0px;
-  background-color: #f67c92;
-  display: inline-block;
-}
-
 .header-text button {
   margin-top: 20px;
   margin-bottom: 60px;
@@ -61,29 +49,118 @@ nav {
   cursor: pointer;
 }
 
-.header-text .line {
+.line {
   line-height: 8px;
 }
 
-.header-text .line .line-1,
-.header-text .line .line-2,
-.header-text .line .line-3 {
+.line .line-1,
+.line .line-2,
+.line .line-3 {
   background: #f67c92;
   display: inline-block;
 }
 
-.header-text .line .line-1 {
+.line .line-1 {
   width: 15px;
   height: 15px;
 }
 
-.header-text .line .line-2 {
+.line .line-2 {
   width: 80px;
   height: 1px;
 }
 
-.header-text .line .line-3 {
+.line .line-3 {
   width: 60px;
   height: 1px;
+}
+
+.square {
+  height: 12px;
+  width: 12px;
+  margin: 15px 0px;
+  background-color: #f67c92;
+  display: inline-block;
+}
+
+#sideNav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: #f67c92;
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#menuBtn {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#about {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#about .about-left-col {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#about .about-left-col img {
+  width: 100%;
+}
+
+#about .about-right-col {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  text-align: right;
+}
+
+#about .about-right-col .about-text {
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+#about .about-right-col p {
+  color: #777777;
+  margin-bottom: 50px;
+}
+
+#about .about-right-col h2 {
+  margin: 50px 0px 10px;
+  font-size: 28px;
+  font-style: italic;
+}
+
+#about .about-right-col h3 {
+  font-size: 20px;
+  font-style: italic;
+  color: #777777;
 }
 /*# sourceMappingURL=style.css.map */
